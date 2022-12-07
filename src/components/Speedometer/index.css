@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.man-con {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-con {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/speedometer-img.png');
+  background-size: cover;
+  height: 100vh;
+  max-height: 200px;
+  width: 100%;
+  max-width: 500px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: fl;
+  align-items: center; */
+}
+
+.head {
+  color: white;
+  font-family: roboto;
+  font-style: italic;
+}
+.para {
+  color: white;
+  font-size: 30px;
+}
+
+.para1 {
+  color: #94a3b8;
+}
+.btn {
+  cursor: pointer;
+  font-size: 12px;
+  outline: none;
+  color: white;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: 0px solid;
+  height: 30px;
+  width: 100px;
+  margin-left: 40px;
+}
+.btn1 {
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-size: 11px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid;
+  height: 30px;
+  margin-left: 40px;
+}
